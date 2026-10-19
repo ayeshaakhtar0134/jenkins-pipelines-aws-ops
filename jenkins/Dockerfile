@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.479.1-lts-jdk17
+FROM jenkins/jenkins:2.541.3-lts-jdk17
 
 USER root
 # AWS CLI v2, jq and Python for the ops scripts
