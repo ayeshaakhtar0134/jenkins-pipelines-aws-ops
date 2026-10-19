@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.pytest_cache/
+.venv/
+candidates.txt
+audit-report.md
+node_modules/

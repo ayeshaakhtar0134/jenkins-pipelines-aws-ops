@@ -1,0 +1,14 @@
+configuration-as-code
+job-dsl
+workflow-aggregator
+pipeline-stage-view
+git
+github
+credentials-binding
+aws-credentials
+pipeline-aws
+slack
+timestamper
+ansicolor
+build-discarder
+matrix-auth

@@ -1,0 +1,14 @@
+# Local Jenkins: cp .env.example .env, set a password, then: docker compose up --build
+services:
+  jenkins:
+    build: ./jenkins
+    ports:
+      - "8080:8080"
+    env_file: .env
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      # Read-only local AWS profile so jobs can run against your account
+      - ${HOME}/.aws:/var/jenkins_home/.aws:ro
+
+volumes:
+  jenkins_home:

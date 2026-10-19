@@ -1,0 +1,7 @@
+{
+  "path_template": "/{env}/{service}/{name}",
+  "services": {
+    "api": ["DATABASE_URL", "JWT_SECRET", "WORKER_URL"],
+    "worker": ["QUEUE_URL", "BUCKET_NAME"]
+  }
+}
